@@ -11,6 +11,7 @@ body {
 	height: 100%;
 }
 
+/* ヘッダー部分のCSS */
 header {
 	height: 75px;
 	width: 100%;
@@ -49,3 +50,227 @@ header {
 	text-decoration: none;
 	color: #333;
 }
+/* --------------- */
+
+/* トップ画像部分のCSS */
+.top-img img {
+	width: 100%;
+}
+
+/* ----------------- */
+
+/* プロローグ部分のCSS */
+.prologue h1 {
+	margin: 100px 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.prologue p {
+	margin: 0 0 100px 0;
+	font-size: 24px;
+	line-height: 45px;
+}
+/* ---------------------- */
+
+/* CAT1部分のCSS */
+.cat1 {
+	background-color: #FCF6F2;
+}
+
+.cat1 h2 {
+	padding: 100px 0;
+	text-align: center;
+	font-size: 40px;
+}
+
+.cat1 .flex {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.cat1 .left {
+	margin-right: 40px;
+}
+
+.cat1 .right {
+	margin-left: 40px;
+}
+
+.cat1 p {
+	font-size: 20px;
+	margin: 0;
+	line-height: 30px;
+}
+/* ------------ */
+
+/* CAT2部分のCSS */
+.cat2 h2 {
+	padding: 100px 0;
+	text-align: center;
+	font-size: 40px;
+}
+
+.cat2 .flex {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.cat2 .left {
+	margin-right: 40px;
+}
+
+.cat2 .right {
+	margin-left: 40px;
+}
+
+.cat2 img {
+	margin-bottom: 50px;
+}
+
+.cat2 p {
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.cat2 .wrapper {
+	background-image: url(../img/cat2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	width: 100%;
+	height: 850px;
+
+	padding-top: 100px;
+}
+
+.cat2 .wrapper .comment {
+	background-color: rgba(255, 255, 255, 0.5);
+	max-height: 450px;
+	max-width: 450px;
+	margin: 0;
+	padding: 85px 75px 65px 75px;
+
+	float: right;
+	font-weight: bold;
+}
+
+.cat2 .wrapper p {
+	margin: 0;
+	display: inline-block;
+	width: 450px;
+	height: 450px;
+	font-size: 20px;
+	line-height: 34px;
+}
+/* ------------ */
+
+/* CAT3部分のCSS */
+.cat3 h2 {
+	padding: 100px 0;
+	text-align: center;
+	font-size: 40px;
+}
+
+.cat3 ul {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 100px;
+	list-style-type: none;
+	width: 100%;
+}
+
+.cat3 li {
+	line-height: 44px;
+	border-top: 1px solid #777777;
+
+	font-size: 16px;
+}
+
+.cat3 .last {
+	border-bottom: 1px solid #777777;
+}
+
+.cat3 .day {
+	padding: 14px;
+	font-weight: bold;
+}
+
+.cat3 .new {
+	padding: 4px 26px 5px;
+	margin-right: 37px;
+	border: 1px solid #AD2727;
+	color: #AD2727;
+	font-weight: bold;
+}
+/* ------------ */
+
+/* フッターコンテンツ部分のCSS */
+.footer-contents {
+	background-color: #8E8E8E;
+	padding: 100px 0 100px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.footer-contents .flex {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+
+.footer-contents .center {
+	margin: 0 55px;
+}
+
+.footer-contents .title {
+	width: 100%;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #fff;
+}
+
+.footer-contents h3 {
+	margin: 0;
+	font-weight: bold;
+}
+
+.footer-contents li {
+	line-height: 26px;
+}
+/* ------------------------ */
+
+/* フッター部分のCSS */
+footer {
+	height: 60px;
+	width: 100%;
+	background-color: #6A6A6A;
+}
+
+.footer_contents {
+	height: 100%;
+	position: relative;
+}
+
+.footer_contents .logo {
+	display: inline-block;
+	line-height: 65px;
+	vertical-align: middle;
+}
+
+.footer_contents p {
+	margin: 0;
+	padding: 0;
+
+	float: right;
+	line-height: 65px;
+	vertical-align: middle;
+
+	font-size: 12px;
+	color: #FFFFFF;
+}
+/* --------------- */
